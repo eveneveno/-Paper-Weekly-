@@ -1,19 +1,17 @@
 #### [A Review of the Neural History of Natural Language Processing](https://ruder.io/a-review-of-the-recent-history-of-nlp/)
 |  Year | Milestone | Remark | Other Milestones
 | ---------------- | ---- | --- | ----
-|2001 | Neural language models | <details><summary>Click to expand</summary><img src="img/neural-lm.png" alt="drawing" width=300> | Conditional random fields (CRF)
-|2002 | | | Bilingual evaluation understudy metric (BLUE)
+|2001 | **Neural language models** | <details><summary>Click to expand</summary><img src="img/neural-lm.png" alt="drawing" width=300> | Conditional random fields (CRF)
 |2003 | | | Latent dirichlet allocation (LDA)
-|2008 | Multi-task learning | <details><summary>Click to expand</summary><img src="img/multitask.png" alt="drawing" width=300>
-|2013 | Word embedding | <details><summary>Click to expand</summary><img src="img/word2vec.png" alt="drawing" width=300> <br> <img src="img/relation.png" alt="drawing" width=300>
-| | Neural networks for NLP | <details><summary>Click to expand</summary><img src="img/lstm.png" alt="drawing" width=300> <br> <img src="img/cnn.png" alt="drawing" width=300>
-|2014 | Sequence-to-sequence models | <details><summary>Click to expand</summary><img src="img/seq2seq.png" alt="drawing" width=300><br> <img src="img/caption.png" alt="drawing" width=300>
-|2015 | Attention | <details><summary>Click to expand</summary><img src="img/attention15.png" alt="drawing" width=300> | Character-based representations
-| | Memory-based networks
-|2017 | | | Adversarial learning, Reinforcement learning
-|2018 | Pretrained language models
+|2008 | **Multi-task learning** | <details><summary>Click to expand</summary><img src="img/multitask.png" alt="drawing" width=300> | Wikipedia Dataset
+|2013 | **Word embedding** | <details><summary>Click to expand</summary><img src="img/word2vec.png" alt="drawing" width=300> <br> <img src="img/relation.png" alt="drawing" width=300>
+| | **Neural networks for NLP** | <details><summary>Click to expand</summary><img src="img/lstm.png" alt="drawing" width=300> <br> <img src="img/cnn.png" alt="drawing" width=300>
+|2014 | **Sequence-to-sequence models** | <details><summary>Click to expand</summary><img src="img/seq2seq.png" alt="drawing" width=300><br> <img src="img/caption.png" alt="drawing" width=300>
+|2015 | **Attention** | <details><summary>Click to expand</summary><img src="img/attention15.png" alt="drawing" width=300> | Character-based representations
+| | **Memory-based networks**
+|2018 | **Pretrained language models**
 
-#### [ACL, NAACL, EMNLP Best paper awards](https://aclweb.org/aclwiki/Best_paper_awards)
+#### [ACL, NAACL, EMNLP Best paper awards](https://aclweb.org/aclwiki/Best_paper_awards) 
 <details><summary>Click to expand</summary>
 
 |  Paper | Venue | Remark
@@ -106,6 +104,7 @@ Reference Textbooks:
 
 #### Other Resources
 <details><summary>Click to expand</summary>
+
 * **nlp-newsletter** (@dair-ai): https://github.com/dair-ai/nlp_newsletter 
 * **nlp-hightlights-podcasts** (@Allen AI): https://soundcloud.com/nlp-highlights 
 * **Sebastian Ruder** (DeepMind): https://ruder.io/
@@ -160,7 +159,8 @@ Reference Textbooks:
 | [Visual Question Answering and Dialog](https://visualqa.org/workshop.html) | CVPR 2019, CVPR 2017
 
 #### Other Readings
-| Type |  Paper | Author 
+| Type |  Title  | Author 
 | ---------------- | ---- |  --- |
 | Book | [A Stochastic Grammar of Images](http://www.stat.ucla.edu/~sczhu/papers/Reprint_Grammar.pdf) | Song-Chun Zhu, 2007
+| Medium | [The Best and Most Current of Modern Natural Language Processing](https://medium.com/huggingface/the-best-and-most-current-of-modern-natural-language-processing-5055f409a1d1) | Victor Sanh, 2019
 </details>
