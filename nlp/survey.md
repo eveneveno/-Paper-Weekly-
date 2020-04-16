@@ -1,7 +1,34 @@
+#### [A Review of the Neural History of Natural Language Processing](https://ruder.io/a-review-of-the-recent-history-of-nlp/)
+|  Year | Milestone | Remark | Other Milestones
+| ---------------- | ---- | --- | ----
+|2001 | Neural language models | <details><summary>Click to expand</summary><img src="img/neural-lm.png" alt="drawing" width=300> | Conditional random fields (CRF)
+|2002 | | | Bilingual evaluation understudy metric (BLUE)
+|2003 | | | Latent dirichlet allocation (LDA)
+|2008 | Multi-task learning | <details><summary>Click to expand</summary><img src="img/multitask.png" alt="drawing" width=300>
+|2013 | Word embedding | <details><summary>Click to expand</summary><img src="img/word2vec.png" alt="drawing" width=300> <br> <img src="img/relation.png" alt="drawing" width=300>
+| | Neural networks for NLP | <details><summary>Click to expand</summary><img src="img/lstm.png" alt="drawing" width=300> <br> <img src="img/cnn.png" alt="drawing" width=300>
+|2014 | Sequence-to-sequence models | <details><summary>Click to expand</summary><img src="img/seq2seq.png" alt="drawing" width=300><br> <img src="img/caption.png" alt="drawing" width=300>
+|2015 | Attention | <details><summary>Click to expand</summary><img src="img/attention15.png" alt="drawing" width=300> | Character-based representations
+| | Memory-based networks
+|2017 | | | Adversarial learning, Reinforcement learning
+|2018 | Pretrained language models
+
+#### [ACL, NAACL, EMNLP Best paper awards](https://aclweb.org/aclwiki/Best_paper_awards)
+<details><summary>Click to expand</summary>
+
+|  Paper | Venue | Remark
+| ---------------- | ---- | ------------ | 
+| [Bridging the Gap between Training and Inference for Neural Machine Translation](https://www.aclweb.org/anthology/P19-1426/) | ACL2019 | Word-level training requires strict matching between the generated sequence and the ground truth sequence which leads to overcorrection over different but reasonable translations. 
+| [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://www.aclweb.org/anthology/N19-1423/) | NAACL2019 | BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks. 
+| [Specializing Word Embeddings (for Parsing) by Information Bottleneck](https://www.aclweb.org/anthology/D19-1276/) | EMNLP2019 | We propose a very fast variational information bottleneck (VIB) method to nonlinearly compress these embeddings, keeping only the information that helps a discriminative parser. We compress each word embedding to either a discrete tag or a continuous vector.
+|[Finding syntax in human encephalography with beam search](https://www.aclweb.org/anthology/P18-1254/) | ACL2018 | 
+|[Deep Contextualized Word Representations (ELMo)](https://www.aclweb.org/anthology/) | NAACL2018 | Models both (1) complex characteristics of word use (e.g., syntax and semantics), and (2) how these uses vary across linguistic contexts (i.e., to model polysemy).
+| [Linguistically-Informed Self-Attention for Semantic Role Labeling](https://www.aclweb.org/anthology/D18-1548/) | EMNLP2018 | Unlike previous models which require significant pre-processing to prepare linguistic features, LISA can incorporate syntax using merely raw tokens as input, encoding the sequence only once to simultaneously perform parsing, predicate detection and role labeling for all predicates.
+</details>
+
+
 #### [Stanford CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/) 
-Related courses: 
-* [cs224u: Natural Language Understanding (Spring 2020)](https://web.stanford.edu/class/cs224u/)
-* [cs224w: Machine Learning with Graphs (Fall 2019)](http://web.stanford.edu/class/cs224w/)
+<details><summary>Click to expand</summary>
 
 Reference Textbooks:
 * Dan Jurafsky and James H. Martin. [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/)
@@ -23,14 +50,18 @@ Reference Textbooks:
 | **Constituency Parsing** and Tree Recursive Neural Networks | [[slides]](http://web.stanford.edu/class/cs224n/slides/cs224n-2020-lecture18-TreeRNNs.pdf) [[notes]](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes09-RecursiveNN_constituencyparsing.pdf) | <details><summary>Click to expand</summary>1. [Parsing with Compositional Vector Grammars](http://www.aclweb.org/anthology/P13-1045) <br> 2. [Constituency Parsing with a Self-Attentive Encoder](https://arxiv.org/pdf/1805.01052.pdf) |  <details><summary>Click to expand</summary>*Dependency parsing* is the process of defining the grammatical structure of a sentence by listing each word as a node and displaying links to its dependents. A *constituency parsed* tree displays the syntactic structure of a sentence using context-free grammar. <br> <img src="img/tree-parsing.png" alt="drawing">
 | Guest Lecture: Recent Advances in **Low Resource Machine Translation** | [[slides]](http://web.stanford.edu/class/cs224n/slides/MarcAurelio_Ranzato_Low_Resource_MT.pdf) | |  <details><summary>Click to expand</summary><img src="img/low-resource.png" alt="drawing">
 | Analysis and Interpretability of Neural NLP | [[slides]](http://web.stanford.edu/class/cs224n/slides/cs224n-2020-lecture20-interpretability.pdf) | |  <details><summary>Click to expand</summary><img src="img/interpretable.png" alt="drawing">
+</details>
 
-#### Paper List
+#### Survey Papers
+<details><summary>Click to expand</summary>
+
 | Type |  Paper | Venue | Remark
 | ---------------- | ---- | ------------ |  --- |
 | Survey | [Pre-trained Models for Natural Language Processing: A Survey](https://arxiv.org/pdf/2003.08271v2.pdf) | arxiv 2020 | <details><summary>Click to expand</summary> <img src="img/ptms.png" alt="drawing">
-| Survey | [Trends in Integration of Vision and Language Research: A Survey of Tasks, Datasets, and Methods](https://arxiv.org/abs/1907.09358) | arxiv 2019 |  <details><summary>Click to expand</summary><img src="img/10tasks.png" alt="drawing" width="500"/>
+| Survey | [Trends in Integration of Vision and Language Research: A Survey of Tasks, Datasets, and Methods](https://arxiv.org/abs/1907.09358) | arxiv 2019 |  <details><summary>Click to expand</summary><img src="img/10tasks.png" alt="drawing" width="500"/> <br> 1. Image Description Generation <img src="img/image-description.png" alt="drawing" width="500"/> <br> 2. Visual Storytelling <img src="img/visual-storytelling.png" alt="drawing" width="500"/> <br> 3. Image Question Answering <img src="img/image-QA.png" alt="drawing"> <br> 4. Visual Dialog <img src="img/visual-dialog.png" alt="drawing"> <br> 5. Visual Reasoning <img src="img/visual-reasoning.png" alt="drawing"> <br> 6. Image Referring <img src="img/image-referring.png" alt="drawing"> <br> 7. Text to Image <img src="img/text-to-image.png" alt="drawing"> <br> 8. Image Guided Machine Translation <img src="img/image-guided.png" alt="drawing">
 | Survey | [Deep Multimodal Representation Learning: A Survey](https://ieeexplore.ieee.org/abstract/document/8715409) | arXiv 2019 |  <details><summary>Click to expand</summary><img src="img/multi-repre.png" alt="drawing" width="600"/>
 | Survey | [Multimodal Machine Learning: A Survey and Taxonomy](https://arxiv.org/abs/1705.09406) | TPAMI 2018 |  <details><summary>Click to expand</summary><img src="img/5challenges.png" alt="drawing" width="600"/>
+</details>
 
 #### Github Compilations
 * **Visual Grounding** Reading List by Arka Sadhu (@TheShadow29): https://github.com/TheShadow29/awesome-grounding 
@@ -50,6 +81,10 @@ Reference Textbooks:
     * Language Models
     * Adversarial Attacks 
     * Few-shot Learning 
+  
+    | Core Areas |  Paper | Remark
+    | ---------------- | ---- |  --- |
+    | Representation Learning | <details><summary>Click to expand</summary> 1. [12-in-1: Multi-Task Vision and Language Representation Learning](https://arxiv.org/abs/1912.02315), CVPR 2020 [[code]](https://github.com/facebookresearch/vilbert-multi-task) <br> 2. [VL-BERT: Pre-training of Generic Visual-Linguistic Representations](https://arxiv.org/abs/1908.08530), arXiv 2019 [[code]](https://github.com/jackroos/VL-BERT) <br> 3. [ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks](https://arxiv.org/abs/1908.02265), NeurIPS 2019 [[code]](https://github.com/jiasenlu/vilbert_beta) <br> 4. [LXMERT: Learning Cross-Modality Encoder Representations from Transformers](https://arxiv.org/abs/1908.07490), EMNLP 2019 [[code]](https://github.com/airsplay/lxmert)  <br> 5. [VideoBERT: A Joint Model for Video and Language Representation Learning](https://arxiv.org/abs/1904.01766), ICCV 2019 | <details><summary>Click to expand</summary>12-in-1 <img src="img/12in1.png" alt="drawing" width="500"/> <br> VLBERT <img src="img/vlbert.png" alt="drawing" width="500"/> <br> ViLBERT<img src="img/vilbert.png" alt="drawing" width="500"/> <br> LXMERT<img src="img/lxmert.png" alt="drawing" width="500"/> <br> VideoBERT<img src="img/videobert-2.png" alt="drawing" width="500"/>
     </details>
     <details><summary>Click to expand: Applications and Datasets</summary>
 
@@ -69,12 +104,8 @@ Reference Textbooks:
     * Healthcare
     * Robotics
 
-Selected List 
-| Core Areas |  Paper | Remark
-| ---------------- | ---- |  --- |
-| Representation Learning | <details><summary>Click to expand</summary> 1. [12-in-1: Multi-Task Vision and Language Representation Learning](https://arxiv.org/abs/1912.02315), CVPR 2020 [[code]](https://github.com/facebookresearch/vilbert-multi-task) <br> 2. [VL-BERT: Pre-training of Generic Visual-Linguistic Representations](https://arxiv.org/abs/1908.08530), arXiv 2019 [[code]](https://github.com/jackroos/VL-BERT) <br> 3. [ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks](https://arxiv.org/abs/1908.02265), NeurIPS 2019 [[code]](https://github.com/jiasenlu/vilbert_beta) <br> 4. [LXMERT: Learning Cross-Modality Encoder Representations from Transformers](https://arxiv.org/abs/1908.07490), EMNLP 2019 [[code]](https://github.com/airsplay/lxmert)  <br> 5. [VideoBERT: A Joint Model for Video and Language Representation Learning](https://arxiv.org/abs/1904.01766), ICCV 2019 | <details><summary>Click to expand</summary>12-in-1 <img src="img/12-in-1.png" alt="drawing" width="500"/> <br> VLBERT <img src="img/vlbert.png" alt="drawing" width="500"/> <br> ViLBERT<img src="img/vilbert.png" alt="drawing" width="500"/> <br> LXMERT<img src="img/lxmert.png" alt="drawing" width="500"/> <br> VideoBERT<img src="img/videobert-2.png" alt="drawing" width="500"/>
-
 #### Other Resources
+<details><summary>Click to expand</summary>
 * **nlp-newsletter** (@dair-ai): https://github.com/dair-ai/nlp_newsletter 
 * **nlp-hightlights-podcasts** (@Allen AI): https://soundcloud.com/nlp-highlights 
 * **Sebastian Ruder** (DeepMind): https://ruder.io/
@@ -132,3 +163,4 @@ Selected List
 | Type |  Paper | Author 
 | ---------------- | ---- |  --- |
 | Book | [A Stochastic Grammar of Images](http://www.stat.ucla.edu/~sczhu/papers/Reprint_Grammar.pdf) | Song-Chun Zhu, 2007
+</details>
