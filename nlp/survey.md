@@ -1,4 +1,6 @@
-#### [A Review of the Neural History of Natural Language Processing](https://ruder.io/a-review-of-the-recent-history-of-nlp/)
+### NLP Research Highlights
+
+#### [A Review of the Neural History of Natural Language Processing](https://ruder.io/a-review-of-the-recent-history-of-nlp/) (Recommend)
 |  Year | Milestone | Remark | Other Milestones
 | ---------------- | ---- | --- | ----
 |2001 | **Neural language models** | <details><summary>Click to expand</summary><img src="img/neural-lm.png" alt="drawing" width=300> | Conditional random fields (CRF)
@@ -11,7 +13,27 @@
 | | **Memory-based networks**
 |2018 | **Pretrained language models**
 
-#### [ACL, NAACL, EMNLP Best paper awards](https://aclweb.org/aclwiki/Best_paper_awards) 
+#### [4 Major Open Problems](https://ruder.io/4-biggest-open-problems-in-nlp/index.html) (Recommend)
+
+| Natural language understanding| NLP for low-resource scenarios | Reasoning about large or multiple documents | Datasets, problems, and evaluation
+| -----| ---- | -- | -- |
+| The consensus was that none of our current models exhibit 'real' understanding of natural language. <br> 1. Innate biases vs. learning from scratch <br> 2. Program synthesis <br> 3. Embodied learning <br> 4. Emotion <br> 5. Cognitive and neuroscience | Dealing with low-data settings (low-resource languages, dialects (including social media text "dialects"), domains, etc.). <br> 1. Universal language model <br> 2. Cross-lingual representations <br> 3. Benefits and impact <br> 4. Incentives and skills <br> 5. Data availability | Reasoning with large contexts is closely related to NLU and requires scaling up our current systems dramatically, until they can read entire books and movie scripts. <br> A more useful direction thus seems to be to develop methods that can represent context more effectively and are better able to keep track of relevant information while reading a document. | Building datasets and evaluation procedures that are appropriate to measure our progress towards concrete goals.
+
+
+#### Conference Highlights (WIP) 
+<details><summary>Click to expand</summary>
+
+| NAACL 2019 | EMNLP 2018
+| -----| ---- |
+| Transfer learning | Inductive bias
+| Common sense reasoning | Cross-lingual learning
+| Natural language generation | Word embeddings
+| Bias | Latent variable models
+| Non-English languages | Language models
+| Diversity and inclusion | Datasets
+</details>
+
+#### [ACL, NAACL, EMNLP Best papers](https://aclweb.org/aclwiki/Best_paper_awards) (WIP) 
 <details><summary>Click to expand</summary>
 
 |  Paper | Venue | Remark
@@ -51,19 +73,17 @@ Reference Textbooks:
 </details>
 
 #### Survey Papers
-<details><summary>Click to expand</summary>
 
 | Type |  Paper | Venue | Remark
 | ---------------- | ---- | ------------ |  --- |
-| Survey | [Pre-trained Models for Natural Language Processing: A Survey](https://arxiv.org/pdf/2003.08271v2.pdf) | arxiv 2020 | <details><summary>Click to expand</summary> <img src="img/ptms.png" alt="drawing">
-| Survey | [Trends in Integration of Vision and Language Research: A Survey of Tasks, Datasets, and Methods](https://arxiv.org/abs/1907.09358) | arxiv 2019 |  <details><summary>Click to expand</summary><img src="img/10tasks.png" alt="drawing" width="500"/> <br> 1. Image Description Generation <img src="img/image-description.png" alt="drawing" width="500"/> <br> 2. Visual Storytelling <img src="img/visual-storytelling.png" alt="drawing" width="500"/> <br> 3. Image Question Answering <img src="img/image-QA.png" alt="drawing"> <br> 4. Visual Dialog <img src="img/visual-dialog.png" alt="drawing"> <br> 5. Visual Reasoning <img src="img/visual-reasoning.png" alt="drawing"> <br> 6. Image Referring <img src="img/image-referring.png" alt="drawing"> <br> 7. Text to Image <img src="img/text-to-image.png" alt="drawing"> <br> 8. Image Guided Machine Translation <img src="img/image-guided.png" alt="drawing">
-| Survey | [Deep Multimodal Representation Learning: A Survey](https://ieeexplore.ieee.org/abstract/document/8715409) | arXiv 2019 |  <details><summary>Click to expand</summary><img src="img/multi-repre.png" alt="drawing" width="600"/>
-| Survey | [Multimodal Machine Learning: A Survey and Taxonomy](https://arxiv.org/abs/1705.09406) | TPAMI 2018 |  <details><summary>Click to expand</summary><img src="img/5challenges.png" alt="drawing" width="600"/>
-</details>
+| Survey - NLP| [Pre-trained Models for Natural Language Processing: A Survey](https://arxiv.org/pdf/2003.08271v2.pdf) | arxiv 2020 | <details><summary>Click to expand</summary> <img src="img/ptms.png" alt="drawing">
+| Survey - Multimodal| [Trends in Integration of Vision and Language Research: A Survey of Tasks, Datasets, and Methods](https://arxiv.org/abs/1907.09358) | arxiv 2019 |  <details><summary>Click to expand</summary><img src="img/10tasks.png" alt="drawing" width="500"/> <br> 1. Image Description Generation <img src="img/image-description.png" alt="drawing" width="500"/> <br> 2. Visual Storytelling <img src="img/visual-storytelling.png" alt="drawing" width="500"/> <br> 3. Image Question Answering <img src="img/image-QA.png" alt="drawing"> <br> 4. Visual Dialog <img src="img/visual-dialog.png" alt="drawing"> <br> 5. Visual Reasoning <img src="img/visual-reasoning.png" alt="drawing"> <br> 6. Image Referring <img src="img/image-referring.png" alt="drawing"> <br> 7. Text to Image <img src="img/text-to-image.png" alt="drawing"> <br> 8. Image Guided Machine Translation <img src="img/image-guided.png" alt="drawing">
+| Survey - Multimodal | [Deep Multimodal Representation Learning: A Survey](https://ieeexplore.ieee.org/abstract/document/8715409) | arXiv 2019 |  <details><summary>Click to expand</summary><img src="img/multi-repre.png" alt="drawing" width="600"/>
+| Survey - Multimodal| [Multimodal Machine Learning: A Survey and Taxonomy](https://arxiv.org/abs/1705.09406) | TPAMI 2018 |  <details><summary>Click to expand</summary><img src="img/5challenges.png" alt="drawing" width="600"/>
 
 #### Github Compilations
 * **Visual Grounding** Reading List by Arka Sadhu (@TheShadow29): https://github.com/TheShadow29/awesome-grounding 
-* **Multi-modal** Reading List by Paul Liang (@pliang279): https://github.com/pliang279/awesome-multimodal-ml/
+* ✨**Multi-modal** [(Click)](awesome-multimodal.md) Reading List by Paul Liang (@pliang279): https://github.com/pliang279/awesome-multimodal-ml/
     <details><summary>Click to expand: Core Areas</summary>
 
     * Representation Learning
@@ -103,10 +123,7 @@ Reference Textbooks:
     * Robotics
 
 #### Other Resources
-<details><summary>Click to expand</summary>
 
-* **nlp-newsletter** (@dair-ai): https://github.com/dair-ai/nlp_newsletter 
-* **nlp-hightlights-podcasts** (@Allen AI): https://soundcloud.com/nlp-highlights 
 * **Sebastian Ruder** (DeepMind): https://ruder.io/
   * **NLP-progress**: https://nlpprogress.com/ (Repository to track the progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks.)
     <details><summary>Click to expand</summary>
@@ -148,8 +165,12 @@ Reference Textbooks:
     * Word sense disambiguation
 * **huggingface**: https://huggingface.co/transformers/ 
   * Transformers 🤗provides general-purpose architectures (*BERT, GPT-2, RoBERTa, XLM, DistilBert, XLNet…*) for Natural Language Understanding (NLU) and Natural Language Generation (NLG) with over 32+ pretrained models in 100+ languages and deep interoperability between TensorFlow and PyTorch.
-
+* **nlp-newsletter** (@dair-ai): https://github.com/dair-ai/nlp_newsletter 
+* **nlp-hightlights-podcasts** (@Allen AI): https://soundcloud.com/nlp-highlights 
+  
 #### Workshops and Tutorials
+<details><summary>Click to expand</summary>
+S
 |  Title | Venue| 
 | ---------------- | ---- | 
 | [Grand Challenge and Workshop on Human Multimodal Language](http://multicomp.cs.cmu.edu/acl2020multimodalworkshop/) | ACL 2020, ACL 2018
@@ -162,5 +183,7 @@ Reference Textbooks:
 | Type |  Title  | Author 
 | ---------------- | ---- |  --- |
 | Book | [A Stochastic Grammar of Images](http://www.stat.ucla.edu/~sczhu/papers/Reprint_Grammar.pdf) | Song-Chun Zhu, 2007
+| Talks | [Representations for Language: From Word Embeddings to Sentence Meanings](https://nlp.stanford.edu/manning/talks/Simons-Institute-Manning-2017.pdf) | Christopher Manning, 2017
 | Medium | [The Best and Most Current of Modern Natural Language Processing](https://medium.com/huggingface/the-best-and-most-current-of-modern-natural-language-processing-5055f409a1d1) | Victor Sanh, 2019
+
 </details>

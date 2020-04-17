@@ -1,14 +1,19 @@
  # Reading List for Topics in Multimodal Machine Learning
+
+[(Click: Back to survey)](survey.md)
+
 > By [Paul Liang](http://www.cs.cmu.edu/~pliang/) (pliang@cs.cmu.edu), [Machine Learning Department](http://www.ml.cmu.edu/) and [Language Technologies Institute](https://www.lti.cs.cmu.edu/), [CMU](https://www.cmu.edu/), with help from members of the [MultiComp Lab](http://multicomp.cs.cmu.edu/) at LTI, CMU. 
+
 
 Forming Ideas:
 #### Analyzing the embedded vectors of words & vision objects in the (common) spaces.
+<details><summary>Click to expand</summary>
 Visualization: https://projector.tensorflow.org/
    1.  ref 👉 [Is an Image Worth More than a Thousand Words? On the Fine-Grain Semantic Differences between Visual and Linguistic Representations](https://www.aclweb.org/anthology/C16-1264)
    2.  Matching vision & word embedding / Study the embedded pattern of vision and word vector clusters.
    3.  How to edit an sentence? (like inserting a word, how it changed the meaning?)
    4.  How to smooth the discrete type of words to make it continous and thus suitable for manipulation without worrying about sudden change of meaning.
-
+</details>
 
 #### Knowledge Graph for `Places Dataset`
    1. ref 👉 [Building a Large-scale Multimodal Knowledge Base System for Answering Visual Queries](https://arxiv.org/abs/1507.05670)
@@ -27,7 +32,7 @@ Example:
 `Section`: see, gallery  
 
 #### `MovieNet Dataset`
-   1. reasoning, but not QA
+   1. Reasoning
 <p align="center">
     <img src="img/movienet.png" alt="drawing" width="700"/>
 </p>
@@ -121,6 +126,7 @@ Example:
 ## Core Areas
 
 ### Representation Learning
+<details><summary>Click to expand</summary>
 
 [Watching the World Go By: Representation Learning from Unlabeled Videos](https://arxiv.org/abs/2003.07990), arXiv 2020
 * we argue that videos offer this **natural augmentation** for free. Videos can provide entirely new views of objects, show deformation, and even connect semantically similar but visually distinct concepts. We propose Video Noise Contrastive Estimation, a method for using unlabeled video to learn strong, transferable single image representations.
@@ -214,8 +220,10 @@ Example:
 
 [Multimodal Deep Learning](https://dl.acm.org/citation.cfm?id=3104569), ICML 2011
 * In particular, we demonstrate cross modality feature learning, where better features for one modality (e.g., video) can be learned if multiple modalities (e.g., audio and video) are present at feature learning time.
+</details>
 
 ### Multimodal Fusion
+<details><summary>Click to expand</summary>
 
 [Dynamic Fusion for Multimodal Data](https://arxiv.org/abs/1911.03821), arXiv 2019
 
@@ -234,8 +242,10 @@ Example:
 [Tensor Fusion Network for Multimodal Sentiment Analysis](https://arxiv.org/abs/1707.07250), EMNLP 2017 [[code]](https://github.com/A2Zadeh/TensorFusionNetwork)
 
 [Jointly Modeling Deep Video and Compositional Text to Bridge Vision and Language in a Unified Framework](http://web.eecs.umich.edu/~jjcorso/pubs/xu_corso_AAAI2015_v2t.pdf), AAAI 2015
+</details>
 
 ### Multimodal Alignment
+<details><summary>Click to expand</summary>
 
 [Multimodal Transformer for Unaligned Multimodal Language Sequences](https://arxiv.org/abs/1906.00295), ACL 2019 [[code]](https://github.com/yaohungt/Multimodal-Transformer)
 
@@ -250,8 +260,10 @@ Example:
 [Multimodal Alignment of Videos](https://dl.acm.org/citation.cfm?id=2654862), MM 2014
 
 [Deep Canonical Correlation Analysis](http://proceedings.mlr.press/v28/andrew13.html), ICML 2013 [[code]](https://github.com/VahidooX/DeepCCA)
+</details>
 
 ### Multimodal Translation
+<details><summary>Click to expand</summary>
 
 [Language2Pose: Natural Language Grounded Pose Forecasting](https://arxiv.org/abs/1907.01108), 3DV 2019 [[code]](http://chahuja.com/language2pose/)
 
@@ -262,8 +274,10 @@ Example:
 [Found in Translation: Learning Robust Joint Representations by Cyclic Translations Between Modalities](https://arxiv.org/abs/1812.07809), AAAI 2019 [[code]](https://github.com/hainow/MCTN)
 
 [Natural TTS Synthesis by Conditioning Wavenet on Mel Spectrogram Predictions](https://arxiv.org/abs/1712.05884), ICASSP 2018 [[code]](https://github.com/NVIDIA/tacotron2)
+</details>
 
 ### Missing or Imperfect Modalities
+<details><summary>Click to expand</summary>
 
 [Factorized Inference in Deep Markov Models for Incomplete Multimodal Time Series](https://arxiv.org/abs/1905.13570), arXiv 2019
 
@@ -292,8 +306,10 @@ Example:
 </p>
 
 **Remark**: 考虑一下places的dataset
+</details>
 
 ### Intepretable Learning
+<details><summary>Click to expand</summary>
 
 [Multimodal Explanations by Predicting Counterfactuality in Videos](https://arxiv.org/abs/1812.01263), CVPR 2019
 
@@ -302,8 +318,10 @@ Example:
 [Do Explanations make VQA Models more Predictable to a Human?](https://arxiv.org/abs/1810.12366), EMNLP 2018
 
 [Towards Transparent AI Systems: Interpreting Visual Question Answering Models](https://arxiv.org/abs/1608.08974), ICML Workshop on Visualization for Deep Learning 2016
+</details>
 
 ### Generative Learning
+<details><summary>Click to expand</summary>
 
 [Few-shot Video-to-Video Synthesis](https://arxiv.org/abs/1910.12713), NeurIPS 2019 [[code]](https://nvlabs.github.io/few-shot-vid2vid/)
 
@@ -312,8 +330,10 @@ Example:
 [Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models](https://arxiv.org/abs/1711.06420), CVPR 2018
 
 [The Multi-Entity Variational Autoencoder](http://charlienash.github.io/assets/docs/mevae2017.pdf), NeurIPS 2017
+</details>
 
 ### Semi-supervised Learning
+<details><summary>Click to expand</summary>
 
 [Semi-supervised Vision-language Mapping via Variational Learning](https://ieeexplore.ieee.org/document/7989160), ICRA 2017
 
@@ -322,16 +342,20 @@ Example:
 [Semi-Supervised Multimodal Deep Learning for RGB-D Object Recognition](https://www.ijcai.org/Proceedings/16/Papers/473.pdf), IJCAI 2016
 
 [Multimodal Semi-supervised Learning for Image Classification](https://ieeexplore.ieee.org/abstract/document/5540120), CVPR 2010
+</details>
 
 ### Self-supervised Learning
+<details><summary>Click to expand</summary>
 
 [Self-Supervised Learning from Web Data for Multimodal Retrieval](https://arxiv.org/abs/1901.02004), arXiv 2019
 
 [Self-Supervised Learning of Visual Features through Embedding Images into Text Topic Spaces](https://ieeexplore.ieee.org/document/8099701), CVPR 2017
 
 [Multimodal Dynamics : Self-supervised Learning in Perceptual and Motor Systems](https://dl.acm.org/citation.cfm?id=1269207), 2016
+</details>
 
 ### Language Models
+<details><summary>Click to expand</summary>
 
 [Neural Language Modeling with Visual Features](https://arxiv.org/abs/1903.02930), arXiv 2019
 
@@ -340,22 +364,28 @@ Example:
 [Visual Word2Vec (vis-w2v): Learning Visually Grounded Word Embeddings Using Abstract Scenes](https://arxiv.org/abs/1511.07067), CVPR 2016
 
 [Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models](http://proceedings.mlr.press/v32/kiros14.html), ICML 2014 [[code]](https://github.com/ryankiros/visual-semantic-embedding)
+</details>
 
 ### Adversarial Attacks
+<details><summary>Click to expand</summary>
 
 [Attend and Attack: Attention Guided Adversarial Attacks on Visual Question Answering Models](https://nips2018vigil.github.io/static/papers/accepted/33.pdf), NeurIPS Workshop on Visually Grounded Interaction and Language 2018
 
 [Attacking Visual Language Grounding with Adversarial Examples: A Case Study on Neural Image Captioning](https://arxiv.org/abs/1712.02051), ACL 2018 [[code]](https://github.com/huanzhang12/ImageCaptioningAttack)
 
 [Fooling Vision and Language Models Despite Localization and Attention Mechanism](https://arxiv.org/abs/1709.08693), CVPR 2018
+</details>
 
 ### Few-Shot Learning
+<details><summary>Click to expand</summary>
 
 [Zero-Shot Learning - The Good, the Bad and the Ugly](https://arxiv.org/abs/1703.04394), CVPR 2017
 
 [Zero-Shot Learning Through Cross-Modal Transfer](https://nlp.stanford.edu/~socherr/SocherGanjooManningNg_NIPS2013.pdf), NIPS 2013
+</details>
 
 ## Applications and Datasets
+<details><summary>Click to expand</summary>
 
 ### Language and Visual QA
 
