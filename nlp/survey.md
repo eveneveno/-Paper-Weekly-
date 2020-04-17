@@ -7,7 +7,7 @@
 |2013 | **Word embedding** | <details><summary>Click to expand</summary><img src="img/word2vec.png" alt="drawing" width=300> <br> <img src="img/relation.png" alt="drawing" width=300>
 | | **Neural networks for NLP** | <details><summary>Click to expand</summary><img src="img/lstm.png" alt="drawing" width=300> <br> <img src="img/cnn.png" alt="drawing" width=300>
 |2014 | **Sequence-to-sequence models** | <details><summary>Click to expand</summary><img src="img/seq2seq.png" alt="drawing" width=300><br> <img src="img/caption.png" alt="drawing" width=300>
-|2015 | **Attention** | <details><summary>Click to expand</summary><img src="img/attention15.png" alt="drawing" width=300> | Character-based representations
+|2015 | **Attention** | <details><summary>Click to expand</summary><img src="img/attention15.png" alt="drawing" width=300> <br> need to calculate an attention value for each combination of input and output word (i.e. looking at everything in detail before deciding what to focus on) and char-level computation can be enormous. Proposition: RL agent predict attention region.| Character-based representations
 | | **Memory-based networks**
 |2018 | **Pretrained language models**
 
@@ -17,6 +17,7 @@
 |  Paper | Venue | Remark
 | ---------------- | ---- | ------------ | 
 | [Bridging the Gap between Training and Inference for Neural Machine Translation](https://www.aclweb.org/anthology/P19-1426/) | ACL2019 | Word-level training requires strict matching between the generated sequence and the ground truth sequence which leads to overcorrection over different but reasonable translations. 
+| [Zero-shot Word Sense Disambiguation using Sense Definition Embeddings](https://www.aclweb.org/anthology/P19-1568.pdf) | ACL2019 (outstanding) | Problem: Small-size corpora and bad generalization on unseen data. Approach: predicting over a continuous sense embedding space as opposed to a discrete label space; target sense embeddings/sense definitions are learnt on WordNet relations (external knowledge). (KG embedding methods (TransE and ConvE) outperforms BERT and ELMO).
 | [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://www.aclweb.org/anthology/N19-1423/) | NAACL2019 | BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks. 
 | [Specializing Word Embeddings (for Parsing) by Information Bottleneck](https://www.aclweb.org/anthology/D19-1276/) | EMNLP2019 | We propose a very fast variational information bottleneck (VIB) method to nonlinearly compress these embeddings, keeping only the information that helps a discriminative parser. We compress each word embedding to either a discrete tag or a continuous vector.
 |[Finding syntax in human encephalography with beam search](https://www.aclweb.org/anthology/P18-1254/) | ACL2018 | 
@@ -59,6 +60,7 @@ Reference Textbooks:
 | Survey | [Trends in Integration of Vision and Language Research: A Survey of Tasks, Datasets, and Methods](https://arxiv.org/abs/1907.09358) | arxiv 2019 |  <details><summary>Click to expand</summary><img src="img/10tasks.png" alt="drawing" width="500"/> <br> 1. Image Description Generation <img src="img/image-description.png" alt="drawing" width="500"/> <br> 2. Visual Storytelling <img src="img/visual-storytelling.png" alt="drawing" width="500"/> <br> 3. Image Question Answering <img src="img/image-QA.png" alt="drawing"> <br> 4. Visual Dialog <img src="img/visual-dialog.png" alt="drawing"> <br> 5. Visual Reasoning <img src="img/visual-reasoning.png" alt="drawing"> <br> 6. Image Referring <img src="img/image-referring.png" alt="drawing"> <br> 7. Text to Image <img src="img/text-to-image.png" alt="drawing"> <br> 8. Image Guided Machine Translation <img src="img/image-guided.png" alt="drawing">
 | Survey | [Deep Multimodal Representation Learning: A Survey](https://ieeexplore.ieee.org/abstract/document/8715409) | arXiv 2019 |  <details><summary>Click to expand</summary><img src="img/multi-repre.png" alt="drawing" width="600"/>
 | Survey | [Multimodal Machine Learning: A Survey and Taxonomy](https://arxiv.org/abs/1705.09406) | TPAMI 2018 |  <details><summary>Click to expand</summary><img src="img/5challenges.png" alt="drawing" width="600"/>
+| Survey | [Adversarial Attacks on Deep-learning Models in Natural Language Processing: A Survey](https://arxiv.org/pdf/1901.06796.pdf) | ACM TIST |  <details><summary>Click to expand</summary> (1) Existing perturbation methods for images cannot be directly applied to texts. (Discrete vs Continuous Inputs. / Perceivable vs Unperceivable perturbations / Semantic vs Semantic-less) <br> <img src="img/adv_attack.png" alt="drawing" width="600"/>
 </details>
 
 #### Github Compilations
