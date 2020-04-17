@@ -21,6 +21,8 @@
 
 
 #### Conference Highlights (WIP) 
+[ACL2020 Browing](https://docs.google.com/document/d/1SGry23ADr10Gqx6Z6Z3JVMLDzP-NiG9crsONCrAW2OU/edit?usp=sharing)
+
 <details><summary>Click to expand</summary>
 
 | NAACL 2019 | EMNLP 2018
@@ -77,11 +79,11 @@ Reference Textbooks:
 
 | Type |  Paper | Venue | Remark
 | ---------------- | ---- | ------------ |  --- |
-| Survey | [Pre-trained Models for Natural Language Processing: A Survey](https://arxiv.org/pdf/2003.08271v2.pdf) | arxiv 2020 | <details><summary>Click to expand</summary> <img src="img/ptms.png" alt="drawing">
-| Survey | [Trends in Integration of Vision and Language Research: A Survey of Tasks, Datasets, and Methods](https://arxiv.org/abs/1907.09358) | arxiv 2019 |  <details><summary>Click to expand</summary><img src="img/10tasks.png" alt="drawing" width="500"/> <br> 1. Image Description Generation <img src="img/image-description.png" alt="drawing" width="500"/> <br> 2. Visual Storytelling <img src="img/visual-storytelling.png" alt="drawing" width="500"/> <br> 3. Image Question Answering <img src="img/image-QA.png" alt="drawing"> <br> 4. Visual Dialog <img src="img/visual-dialog.png" alt="drawing"> <br> 5. Visual Reasoning <img src="img/visual-reasoning.png" alt="drawing"> <br> 6. Image Referring <img src="img/image-referring.png" alt="drawing"> <br> 7. Text to Image <img src="img/text-to-image.png" alt="drawing"> <br> 8. Image Guided Machine Translation <img src="img/image-guided.png" alt="drawing">
-| Survey | [Deep Multimodal Representation Learning: A Survey](https://ieeexplore.ieee.org/abstract/document/8715409) | arXiv 2019 |  <details><summary>Click to expand</summary><img src="img/multi-repre.png" alt="drawing" width="600"/>
-| Survey | [Multimodal Machine Learning: A Survey and Taxonomy](https://arxiv.org/abs/1705.09406) | TPAMI 2018 |  <details><summary>Click to expand</summary><img src="img/5challenges.png" alt="drawing" width="600"/>
-| Survey | [Adversarial Attacks on Deep-learning Models in Natural Language Processing: A Survey](https://arxiv.org/pdf/1901.06796.pdf) | ACM TIST |  <details><summary>Click to expand</summary> (1) Existing perturbation methods for images cannot be directly applied to texts. (Discrete vs Continuous Inputs. / Perceivable vs Unperceivable perturbations / Semantic vs Semantic-less) <br> <img src="img/adv_attack.png" alt="drawing" width="600"/>
+| NLP| [Pre-trained Models for Natural Language Processing: A Survey](https://arxiv.org/pdf/2003.08271v2.pdf) | arxiv 2020 | <details><summary>Click to expand</summary> <img src="img/ptms.png" alt="drawing">
+| Vision+Language | [Trends in Integration of Vision and Language Research: A Survey of Tasks, Datasets, and Methods](https://arxiv.org/abs/1907.09358) | arxiv 2019 |  <details><summary>Click to expand</summary><img src="img/10tasks.png" alt="drawing" width="500"/> <br> 1. Image Description Generation <img src="img/image-description.png" alt="drawing" width="500"/> <br> 2. Visual Storytelling <img src="img/visual-storytelling.png" alt="drawing" width="500"/> <br> 3. Image Question Answering <img src="img/image-QA.png" alt="drawing"> <br> 4. Visual Dialog <img src="img/visual-dialog.png" alt="drawing"> <br> 5. Visual Reasoning <img src="img/visual-reasoning.png" alt="drawing"> <br> 6. Image Referring <img src="img/image-referring.png" alt="drawing"> <br> 7. Text to Image <img src="img/text-to-image.png" alt="drawing"> <br> 8. Image Guided Machine Translation <img src="img/image-guided.png" alt="drawing">
+| Multimodal | [Deep Multimodal Representation Learning: A Survey](https://ieeexplore.ieee.org/abstract/document/8715409) | arXiv 2019 |  <details><summary>Click to expand</summary><img src="img/multi-repre.png" alt="drawing" width="600"/>
+|Multimodal | [Multimodal Machine Learning: A Survey and Taxonomy](https://arxiv.org/abs/1705.09406) | TPAMI 2018 |  <details><summary>Click to expand</summary><img src="img/5challenges.png" alt="drawing" width="600"/>
+| Adversarial Attacks | [Adversarial Attacks on Deep-learning Models in Natural Language Processing: A Survey](https://arxiv.org/pdf/1901.06796.pdf) | ACM TIST 2019 |  <details><summary>Click to expand</summary> (1) Existing perturbation methods for images cannot be directly applied to texts. (Discrete vs Continuous Inputs. / Perceivable vs Unperceivable perturbations / Semantic vs Semantic-less) <br> <img src="img/adv_attack.png" alt="drawing" width="600"/>
 </details>
 
 #### Github Compilations
