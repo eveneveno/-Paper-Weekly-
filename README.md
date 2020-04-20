@@ -10,10 +10,8 @@
 [![](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/images/0)](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/links/0)[![](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/images/1)](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/links/1)[![](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/images/2)](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/links/2)[![](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/images/3)](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/links/3)[![](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/images/4)](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/links/4)[![](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/images/5)](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/links/5)[![](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/images/6)](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/links/6)[![](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/images/7)](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/links/7)
 
 
-## ✨ New Arrivals: `Week 4`
-* [1] [State of the Art on Neural Rendering 📚](https://arxiv.org/abs/2004.03805)
-* [2] [Deep Single Image Portrait Relighting](https://zhhoper.github.io/dpr.html)
-* [3] [3D Photography using Context-aware Layered Depth Inpainting](https://shihmengli.github.io/3D-Photo-Inpainting/)
+## ✨ New Arrivals: `Week 5`
+
 <!--
 - **Computer Vision (CV)**s
   * [1] [RANSAC-Flow: generic two-stage image alignment](http://imagine.enpc.fr/~shenx/RANSAC-Flow/) 🐰
@@ -40,7 +38,7 @@
 | #1: Videos, Impainting, Depth| March 27, 2020 | [week 1: qqhuang, yxiong, ayrao](week1/README.md)
 | #2: 3D Body, Interactive Segmentation | April 03, 2020 | [week 2: lnxu, twu](week2/README.md)
 | #3: SMPL, Homography, Retargeting | April 10, 2020 | [week 3: qqhuang, yxiong, ayrao](week3/README.md)
-| #4: Relightening, View Synthesis | April 17, 2020 | week 4: lnxu, twu
+| #4: Relightening, View Synthesis | April 17, 2020 | [week 4: lnxu, twu](week4/relightning.md)
 
 
 

@@ -3,7 +3,7 @@ List of popular game engines: `Unreal Engine`, `Unity`, `GTA V`, `mixamo`, `blen
 
 [TransMoMo: Invariance-Driven Unsupervised Video Motion Retargetings](https://arxiv.org/pdf/2003.14401v2.pdf)(CVPR'20)
 * Platform: [Adobe mixamo](https://www.mixamo.com/#/)
-<p align="center">
+ <p align="center">
     <img src="img/mixamo.png" alt="drawing" width="300"/>
 </p>
 
