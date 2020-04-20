@@ -74,7 +74,9 @@ Rather than taking several years of CPU power to compute, this metric took 10 se
 </p>
 
 ##### Complements 
-Cbow causes the model to train an input vector of one ingredient to have a high dot product with the output vector of another ingredient if the presence of the first ingredient predicts/increases the likelihood of the presence of the second. Thus, cbow trains output vectors to be complements of input vectors.
+In the **continuous bag of words** cost function, the “missing” word is found by **taking an average of input vectors for the given bag of ingredients**, and **finding the dot product with each other ingredient’s output vector**. The maximum dot product corresponds to the guessed word.
+
+**Cbow** causes the model to **train an input vector of one ingredient to have a high dot product with the output vector of another ingredient** if the presence of the first ingredient predicts/increases the likelihood of the presence of the second. Thus, **cbow trains output vectors to be complements of input vectors.**
 To find the best complement for a given ingredient $i$ with input vector $x_i$, we find the maximum cosine similarity as
 
 $$
@@ -84,7 +86,7 @@ $$
 where $o_j$ is the output vector of ingredient $j$. Even though the cbow algorithm explicitly maximizes dot product, we choose to use cosine distance since it does not take into account the scale of input and output vectors, and thus does not discriminate against less frequently seen ingredients.
 
 ##### Substitutes
-In our embedding approach, ingredients that appear in similar contexts will have similar values because they will recieve similar gradient updates. For an ingredient $i$ with input vector $x_i$, we say its best substitute (represented by index $j$ and input vector $x_j$)
+In our embedding approach, **ingredients that appear in similar contexts will have similar values because they will recieve similar gradient updates**. For an ingredient $i$ with input vector $x_i$, we say its best substitute (represented by index $j$ and input vector $x_j$)
 
 $$
 \operatorname{argmax}_{j} \frac{x_{i} \cdot x_{j}}{\left\|x_{i}\right\|_{2}\left\|x_{j}\right\|_{2}}
