@@ -69,6 +69,10 @@ Rather than taking several years of CPU power to compute, this metric took 10 se
 * To reach convergence, we trained the models for **5,000 epochs** (overnight). 
 * Though there are tradeoffs to using the subword information-based model, we still decided to use it for the remainder of our tasks.
 
+<p align="center">
+    <img src="img/data.png" alt="drawing" />
+</p>
+
 ##### Complements 
 Cbow causes the model to train an input vector of one ingredient to have a high dot product with the output vector of another ingredient if the presence of the first ingredient predicts/increases the likelihood of the presence of the second. Thus, cbow trains output vectors to be complements of input vectors.
 To find the best complement for a given ingredient $i$ with input vector $x_i$, we find the maximum cosine similarity as
